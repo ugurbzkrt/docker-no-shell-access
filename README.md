@@ -3,7 +3,7 @@
 
 (Distroless/Scratch) - /bin/bash - /bin/sh
 
-BuNetwork Namespace access:
+Network Namespace access:
 
 docker run --rm -it --network container:<id> alpine sh
 
